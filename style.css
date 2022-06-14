@@ -225,6 +225,14 @@ p {
   width: 40%;
 }
 
+.text-content h4,h3,p {
+  width: 100%;
+}
+
+.thesis-text h4,p{
+  width: 100%;
+}
+
 .theis-v-content {
   margin-left: 24px;
   width: 60%;
@@ -246,7 +254,7 @@ p {
 }
 
 .thesis-image-box {
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 

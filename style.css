@@ -1,0 +1,410 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+
+
+.mobile {
+  display: none;
+}
+
+nav {
+  width: 100%;
+  height: 64px;
+  background-color: white;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 24px;
+  height: 32px;
+}
+
+.nav-ul {
+  float: right;
+  margin-right: 24px;
+  display: flex;
+  margin-top: 24px;
+}
+
+.nav-ul li {
+  display: inline;
+  padding-left: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  /* padding-right: 24px; */
+}
+
+#banner-container {
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #d7d7d7;
+}
+
+#banner-container img {
+  width: 60%;
+}
+
+#banner-container #banner-text {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+#banner-container #banner-text h1 {
+  margin-top: 24px;
+  color: #4a4a4a;
+}
+
+#banner-container #banner-text p {
+  color: #4a4a4a;
+  margin-top: 24px;
+}
+
+#banner-container #banner-text button {
+  color: white;
+  background-color: #4a4a4a;
+  border: unset;
+  padding: 8px 0px;
+  margin-top: 24px;
+}
+
+.main {
+  background-color: #ffffff;
+  display: flex;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.main-container img {
+  width: 100%;
+}
+
+.main-text {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text p {
+  margin-top: 24px;
+}
+
+.main-text h2,
+p {
+  width: 60%;
+}
+
+.main-imgbox {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.img-mobile {
+  display: none;
+}
+
+.content-image-box {
+  display: inline-flex;
+  border: 1px solid gray;
+  align-items: center;
+}
+
+.text-content {
+  width: 65%;
+
+}
+
+.small-img {
+  width: 100%;
+}
+
+.media-container {
+  overflow: hidden;
+  margin: 16px 16px;
+  width: 35%;
+}
+
+.main-container span {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+
+.courses-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #d3d3d3;
+  padding-bottom: 32px;
+}
+
+.courses-text-head {
+  text-align: center;
+}
+
+.courses-text-head h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.courses-row {
+  display: flex;
+  padding-left: 72px;
+  padding-right: 40px;
+}
+
+.course {
+  display: block;
+  margin-bottom: 32px;
+  margin-right: 32px;
+  background-color: white;
+  flex-basis: 33%;
+}
+
+.course .text-content {
+  margin: 16px;
+}
+
+
+.learning-container {
+  width: 100%;
+}
+
+
+.learning-container img {
+  width: 100%;
+  height: auto;
+}
+
+
+.thesis-text-head h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.thesis-content {
+  display: flex;
+  width: 100%;
+}
+
+.theis-v-content {
+  margin-left: 24px;
+  width: 60%;
+}
+
+.theis-v-content .v-box {
+  overflow: hidden;
+}
+
+.theis-v-content .v-box video {
+  width: 100%;
+}
+
+.theis-box-content {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.thesis-image-box {
+  display: inline-flex;
+  align-items: center;
+}
+
+.thesis-img {
+  margin: 16px;
+  width: 35%;
+}
+
+.thesis-image-box .thesis-img img {
+  width: 100%;
+}
+
+.theis-v-content h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.theis-v-content p {
+  margin-bottom: 32px;
+}
+
+footer a {
+  float: right;
+}
+
+footer {
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width:600px) {
+  .desktop-nav {
+    display: none;
+  }
+
+
+  nav .mobile {
+    margin-top: 24px;
+    display: block;
+    width: 100%;
+  }
+
+  nav .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  #banner-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  #banner-container img {
+    width: 100%;
+  }
+
+  #banner-container #banner-text {
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+
+  }
+
+  #banner-container #banner-text button {
+    color: white;
+    background-color: #4a4a4a;
+    border: unset;
+    padding: 8px 0px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  .small-img {
+    display: none;
+  }
+
+  .img-mobile {
+    display: block;
+  }
+
+  .main-container {
+    display: none;
+  }
+
+  .main-imgbox {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 64px;
+  }
+
+  .text-content {
+    width: 100%;
+    margin-left: 16px;
+  }
+
+  .content-image-box {
+    margin: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media-container {
+    width: 100%;
+  }
+
+  .media-container img {
+    width: 90%;
+  }
+
+  .courses-row {
+    flex-direction: column;
+  }
+
+  .course {
+    background-color: #7a7a7a;
+  }
+
+  .courses-section {
+    background-color: #ffffff;
+  }
+
+  .learning-container img {
+    display: none;
+  }
+
+  .course .text-content h4 {
+    display: none;
+  }
+
+  .course .text-content p {
+    display: none;
+  }
+
+  .theis-box-content {
+    display: none;
+  }
+
+  .theis-v-content {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .v-box video {
+    width: 100%;
+  }
+
+  footer a {
+    display: none;
+  }
+
+  .thesis-text {
+    display: none;
+  }
+
+  .theis-v-content h3, p{
+    display: none;
+  }
+}

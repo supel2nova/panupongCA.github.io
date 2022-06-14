@@ -221,6 +221,10 @@ p {
   width: 100%;
 }
 
+.thesis-text {
+  width: 40%;
+}
+
 .theis-v-content {
   margin-left: 24px;
   width: 60%;
@@ -247,7 +251,7 @@ p {
 }
 
 .thesis-img {
-  margin: 16px;
+  margin: 0px 16px 16px 16px;
   width: 35%;
 }
 
@@ -392,6 +396,7 @@ footer {
     margin: 0;
     margin-bottom: 40px;
   }
+
   .v-box video {
     width: 100%;
   }
@@ -400,11 +405,8 @@ footer {
     display: none;
   }
 
-  .thesis-text {
-    display: none;
-  }
-
-  .theis-v-content h3, p{
+  .theis-v-content h3,
+  p {
     display: none;
   }
 }
